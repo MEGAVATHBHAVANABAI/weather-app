@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SearchBox from "./components/SearchBox";
 import InfoBox from "./components/InfoBox";
-import "./app.css";
+import "./App.css";
 function WeatherApp() {
 const [weatherInfo, setWeatherInfo] = useState(null);
 const [loading, setLoading] = useState(false);
